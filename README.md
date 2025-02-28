@@ -45,22 +45,6 @@ Install the required packages using:
 pip install opencv-python numpy
 Usage
 
-Clone the Repository:
-
-git clone https://github.com/your-username/human-detection-tracking.git
-cd human-detection-tracking
-Run the Script:
-
-Place your video file (e.g., v3.mp4) in the project directory.
-
-Run the script:
-
-bash
-Copy
-python human_tracking.py
-Keyboard Controls:
-
-Press q to quit the application.
 
 Code Overview
 Key Functions
@@ -132,9 +116,10 @@ Console Logs:
 
 Logs the frame number and coordinates of tracked humans:
 
-Copy
+
 Frame 45 - Tracked human coordinates: [(120, 80, 64, 128), (300, 150, 70, 140)]
 Future Enhancements
+
 Multi-Object Tracking:
 
 Integrate advanced tracking algorithms like DeepSORT or FairMOT for improved accuracy.
